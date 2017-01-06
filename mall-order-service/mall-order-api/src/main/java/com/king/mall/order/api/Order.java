@@ -1,11 +1,12 @@
 package com.king.mall.order.api;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by King on 2017/1/6.
  */
-public class Order {
+public class Order implements Serializable {
 
     private String id;
 
